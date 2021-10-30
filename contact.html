@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<hmtl lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SKIVIR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>SKIVIR</h1>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="">shop</a></li>
+          <li><a href="contact.html">contact us</a></li>
+        </ul>
+      </nav>
+      <input type="search" placeholder="search..." />
+    </header>
+
+    <aside>
+      <h2>Shop by</h2>
+      <section>
+        <h3>Category</h3>
+        <hr />
+        <ul>
+          <li>All items</li>
+          <li>T-shirts</li>
+          <li>Bottoms</li>
+          <li>Accessories</li>
+          <li>Shoes</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Prices <span>($)</span></h3>
+        <hr />
+        <ul>
+          <li>under $20</li>
+          <li>under $50</li>
+          <li>under $70</li>
+          <li>under $100</li>
+        </ul>
+      </section>
+    </aside>
+
+    <main>
+      <h2>Contact Us</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name: </label>
+          <input
+            type="text"
+            placeholder="Enter your name"
+            id="name"
+            name="name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email"> Email:</label>
+
+          <input
+            type="email"
+            placeholder="Enter your email"
+            id="email"
+            name="email"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="message"> Message:</label>
+
+          <textarea id="message" cols="30" rows="5" name="message"></textarea>
+        </div>
+
+        <!-- <div>
+          <label for="subject">Subject</label>
+          <select name="" id="subject">
+            <optgroup label="Product Issues">
+              <option value="returns">Returns</option>
+              <option value="faulty_item">Faulty Item</option>
+            </optgroup>
+            <optgroup label="Delivery">
+              <option value="delivery">Delivery</option>
+              <option value="order_tracking">Tracking my order</option>
+            </optgroup>
+            <optgroup label="Other">
+              <option value="recommendation">Recommendations</option>
+              <option value="other">Other</option>
+            </optgroup>
+          </select>
+        </div> -->
+
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input
+            type="text"
+            list="subjects"
+            id="subject"
+            placeholder="Enter your subject"
+          />
+          <datalist id="subjects">
+            <option value="returns"></option>
+            <option value="faulty item"></option>
+            <option value="delivery"></option>
+            <option value="returns"></option>
+            <option value="order tracking"></option>
+            <option value="recommendations"></option>
+            <option value="other"></option>
+          </datalist>
+        </div>
+
+        <div>
+          <p>Subscribe to future offers by:</p>
+          <label for="newsletter">Newsletter</label>
+          <input
+            type="checkbox"
+            name=""
+            id="newsletter"
+            name="subscribe"
+            value="newsletter"
+          />
+
+          <label for="email">Email</label>
+          <input
+            type="checkbox"
+            name=""
+            id="email"
+            name="subscribe"
+            value="email"
+          />
+
+          <label for="post">Post</label>
+          <input
+            type="checkbox"
+            name=""
+            id="post"
+            name="subscribe"
+            value="post"
+          />
+        </div>
+
+        <div>
+          <p>How would you like us to respond?</p>
+          <label for="phoneResponse">Phone</label>
+          <input
+            type="radio"
+            name="response"
+            id="phoneResponse"
+            value="phone"
+          />
+
+          <label for="emialResponse">Email</label>
+          <input
+            type="radio"
+            name="response"
+            id="emailResponse"
+            value="email"
+          />
+        </div>
+
+        <div>
+          <input type="submit" />
+          <input type="reset" />
+          <!-- <button type="submit">Contact us</button> -->
+        </div>
+      </form>
+
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/AmmFD2OIs_k"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+
+      <!-- <form action="">
+        <input type="number" />
+        <input type="password" />
+        <input type="date" />
+        <input type="color" />
+        <input type="range" min="1" max="100" value="50" />
+      </form> -->
+    </main>
+
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="">shop</a></li>
+          <li><a href="contact.html">contact us</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body></hmtl
+>
